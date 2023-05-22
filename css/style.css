@@ -1,0 +1,160 @@
+.header{background-color:white; border:solid white; 
+    height: 90px; width: 100%; display: flex; border-radius: 8px;
+     box-shadow:10px 10px #F3EEEE; margin-right:0px;}
+
+.header .one img {width: 120px; height: 100px; margin-top:0px;}  
+.header .one{padding-bottom: 0px;
+}
+
+.header .two{ position: relative; display:inline-block;  margin: 20px;
+  margin-top:40px;  } 
+.drop {display: none; position: absolute; z-index: 1; 
+  background-color:#F7F3F3; min-width:160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0, 0,0,0.2);
+ text-align: center;}
+.drop a{text-decoration: none;color: #221C1C;
+  padding:12px 16px;
+  display: block;
+ }
+ .two a:hover{background-color: #ddd;}
+.two button {background-color:white; color:rgb(85, 8, 90); border: none;}
+.two:hover .drop { display: block;}
+
+ .dropdown { position: relative; display:inline-block;  margin:20px;
+   margin-top:40px;  } 
+
+.dropdown-content {display: none; position: absolute; z-index: 1;
+  background-color:#F7F3F3; 
+  min-width:160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0, 0,0,0.2);
+ text-align: center;}
+
+.dropdown-content a{text-decoration: none;
+  color: #221C1C;
+   padding:12px 16px;
+   display: block;
+  }
+
+.dropdown button {background-color:white;
+   color: rgb(85, 8, 90);; 
+   border: none;}
+.dropdown-content a:hover{background-color: #ddd;}
+.dropdown:hover .dropdown-content { display: block;
+  }
+
+  .header .down { position: relative; display:inline-block; margin:20px; 
+    margin-top:40px;  }
+  .down button {background-color:white; color: rgb(85, 8, 90);; border: none;} 
+  .content {display: none; position: absolute; z-index: 1;
+    background-color:#F7F3F3; min-width:160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0,0,0.2);
+   text-align: center;}
+  .content a{text-decoration: none;color: #221C1C; 
+    padding:12px 16px;
+    display: block;}
+    .content a:hover{background-color: #ddd;}
+  .down:hover .content { display: block; }
+
+  .up { position: relative; display:inline-block; margin:20px;  margin-top:40px;  }
+  .up button {background-color:white; color: rgb(85, 8, 90);; border: none;}
+  
+  .down1 { position: relative; display:inline-block; margin:20px; 
+    margin-top:40px;  }
+
+  .down1 button {background-color:white; color: rgb(85, 8, 90);; border: none;}
+  
+  .content1 {display: none; position: absolute; z-index: 1;
+    background-color:#F7F3F3;min-width:160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0,0,0.2);
+   text-align: center;}
+  .content1 a{text-decoration: none;color: #221C1C;
+    padding:12px 16px;
+    display: block;
+   }
+   .content1 a:hover{background-color: #ddd;}
+  .down1:hover .content1 { display: block; }
+
+  .Signup { position: relative; display:inline-block; margin:20px; 
+     margin-top:40px;  margin-left: 200px; }
+  .Signup button {background-color:white; color:rgb(85, 8, 90);; border: none;}
+
+  .join { position: relative; display:inline-block; margin:20px; 
+    margin-top:40px;  margin-left: 10px; }
+ .join button {background-color:rgb(85, 8, 90);; border: none;  
+  height: 40px; padding: 10px; margin-top:0px;
+color:white; border-radius:10px; margin-bottom: 30px;}
+
+.glob img{width: 30px; height:30px; margin: 40px;}
+ 
+   .bodyy{display: flex;}
+  .bodyy .we{ margin-top: 150px; margin-left:50px;}
+  .bodyy .we h1{color: rgb(85, 8, 90);; font-size: 50px;}
+  .bodyy .we p{font-size: 20px;}
+
+  .bodyy .image1  img{ width:700px; 
+    margin-top: 80px;
+  height: 480px; border-radius: 90px; margin-left: 90px; border:none;}
+  .bodyy2{display: flex;}
+  
+  .bodyy2 .wee{ margin-top: 150px; margin-left:50px;}
+  .bodyy2 .wee h1{color: rgb(85, 8, 90);; font-size: 50px;}
+  .bodyy2 .wee p{font-size: 20px;}
+
+  .bodyy2 .image3  img{ width:700px; 
+    margin-top: 80px;
+  height: 480px; border-radius: 90px; margin-left: 90px; border:none;}
+
+
+.bodyyy3{
+  display:flex;
+  gap: 40px;margin-top: 50px;
+  
+}
+.aaa{background-color: whitesmoke;}
+.bodyyy3 .aaa p{color: rgb(85, 8, 90);font-size: 20px; }
+.bodyyy3 .icons img{width:150x ;height: 40px;}
+
+
+.abu{background-color: whitesmoke;}
+.bodyyy3 .abu p{color: rgb(85, 8, 90);font-size: 20px;}
+.bodyyy3 .icons1 img{width: 150px;height: 40px;}
+
+.zaidu{background-color: whitesmoke;}
+.bodyyy3 .zaidu p{color: rgb(85, 8, 90);font-size: 20px;}
+.bodyyy3 .icons2 img{width: 150px;height: 40px;}
+
+.bodyyy4{display: flex;
+       gap:40px; margin-top: 50px;
+       margin-left: 320px;
+}
+.xxx{background-color: whitesmoke;}
+.bodyyy4 .xxx p{color: rgb(85, 8, 90);font-size: 20px;}
+.bodyyy4 .icons3 img{ width:150;height: 40px;}
+
+.dije{background-color: whitesmoke;}
+.bodyyy4 .dije p{color: rgb(85, 8, 90);font-size: 20px;}
+.bodyyy4 .icons4 img{width: 150px;height: 40px;}
+
+
+.bodyyy5{display: flex;}
+.bodyyy5 .the{ margin-top: 150px; margin-left:50px;}
+.bodyyy5 .the h1{color: rgb(85, 8, 90);; font-size: 50px;}
+.bodyyy5 .the p{font-size: 20px;}
+
+.bodyyy5 .image5  img{ width:700px; 
+  margin-top: 80px;
+height: 480px; border-radius: 90px; margin-left: 90px; border:none;}
+.bodyyy6{display: flex;margin-left: 50px;margin-top: 100px;}
+
+.bodyyy7{display: flex;gap:60px;margin-top: 50px;;}
+
+.bodyyy7 .zzzz h1{color: rgb(85, 8, 90);}
+.bodyyy7 .how h1{color: rgb(85, 8, 90);}
+.bodyyy7 .na h1{color: rgb(85, 8, 90);}
+.bodyyy7 .ba h1{color: rgb(85, 8, 90);}
+
+  
+.bodyyy7 .ca h1{color: rgb(85, 8, 90);}
+.bodyyy7 .icons4 img{margin-top: 0px}
+.bodyyy8{display:flex; gap: 40;margin-top: 100px;}
+.bodyyy8 .icons8 img{height: 50px;width: 20px;}
